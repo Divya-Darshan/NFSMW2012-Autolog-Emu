@@ -2,7 +2,7 @@
 
 Bring Autolog back to *Need for Speed: Most Wanted (2012)* — community-led, simple, and fun.
 
-<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1262560/header.jpg?t=1605151411" alt="Banner" style="width:100%; display:block; margin:0 auto;" />
+<img src="./img/nfs_most_wanted_2012.jpg" alt="Banner" style="width:100%; display:block; margin:0 auto; border-radius:5px;  " />
 
 ## 🎮 Try it
 
