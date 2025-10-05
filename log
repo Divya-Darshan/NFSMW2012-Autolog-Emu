@@ -1,0 +1,931 @@
+while ($true) {
+  Clear-Host
+  Get-Date
+  Get-NetTCPConnection | Select-Object OwningProcess, LocalPort, RemoteAddress, RemotePort, State
+  Get-NetUDPEndpoint   | Select-Object OwningProcess, LocalAddress, LocalPort
+  Start-Sleep -Seconds 2
+}
+
+05 October 2025 22:23:08
+
+OwningProcess : 15344
+LocalPort     : 64990
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 12208
+LocalPort     : 64986
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 12208
+LocalPort     : 64290
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 22756
+LocalPort     : 63358
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 12208
+LocalPort     : 62897
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 7032
+LocalPort     : 61742
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 12208
+LocalPort     : 59270
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 22756
+LocalPort     : 59065
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 22756
+LocalPort     : 58465
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 22756
+LocalPort     : 58202
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 12208
+LocalPort     : 58047
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 22756
+LocalPort     : 55706
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 12208
+LocalPort     : 55147
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 8612
+LocalPort     : 55098
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 22756
+LocalPort     : 55034
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 5540
+LocalPort     : 54588
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 22756
+LocalPort     : 50730
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 24044
+LocalPort     : 50298
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 2732
+LocalPort     : 49788
+RemoteAddress : ::
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 0
+LocalPort     : 65131
+RemoteAddress : 2620:1ec:33:1::11
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 15344
+LocalPort     : 64990
+RemoteAddress : 64:ff9b::1243:a115
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 12208
+LocalPort     : 64986
+RemoteAddress : 2a06:98c1:3108::ac40:94eb
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 64913
+RemoteAddress : 2620:1ec:33:1::11
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 12208
+LocalPort     : 64290
+RemoteAddress : 2a06:98c1:3108::ac40:94eb
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 63496
+RemoteAddress : 2620:1ec:33:1::11
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 22756
+LocalPort     : 63358
+RemoteAddress : 64:ff9b::142c:a7a
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 62906
+RemoteAddress : 2a03:2880:f369:121:face:b00c:0:7260
+RemotePort    : 80
+State         : TimeWait
+
+
+OwningProcess : 22756
+LocalPort     : 62344
+RemoteAddress : 2620:1ec:33:1::11
+RemotePort    : 443
+State         : FinWait2
+
+
+OwningProcess : 0
+LocalPort     : 62038
+RemoteAddress : 2603:1046:2000:60::83
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 7032
+LocalPort     : 61742
+RemoteAddress : 2a03:2880:f369:121:face:b00c:0:7260
+RemotePort    : 80
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 61728
+RemoteAddress : 2620:1ec:bdf::58
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 60332
+RemoteAddress : 2620:1ec:33:1::11
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 12208
+LocalPort     : 59270
+RemoteAddress : 64:ff9b::8c52:7119
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 22756
+LocalPort     : 59065
+RemoteAddress : 2400:5200:402:19d::2c1a
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 59061
+RemoteAddress : 2603:1046:c06:c19::2
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 22756
+LocalPort     : 58465
+RemoteAddress : 2620:1ec:33::11
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 22756
+LocalPort     : 58202
+RemoteAddress : 64:ff9b::142c:a7a
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 12208
+LocalPort     : 58047
+RemoteAddress : 2a06:98c1:310b::ac40:9bd1
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 57823
+RemoteAddress : 2620:1ec:bdf::58
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 22756
+LocalPort     : 55706
+RemoteAddress : 64:ff9b::acbc:9b19
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 12208
+LocalPort     : 55147
+RemoteAddress : 64:ff9b::44b7:57dd
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 22756
+LocalPort     : 55034
+RemoteAddress : 2620:1ec:33::11
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 50958
+RemoteAddress : 2620:1ec:33:1::11
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 22756
+LocalPort     : 50730
+RemoteAddress : 2620:1ec:33:1::11
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 24044
+LocalPort     : 50298
+RemoteAddress : 64:ff9b::287e:1185
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 50297
+RemoteAddress : 64:ff9b::14ff:2ee1
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 1192
+LocalPort     : 49682
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5736
+LocalPort     : 49669
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 4616
+LocalPort     : 49668
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 3216
+LocalPort     : 49667
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 2240
+LocalPort     : 49666
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 1116
+LocalPort     : 49665
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 1220
+LocalPort     : 49664
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 7200
+LocalPort     : 7680
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 4
+LocalPort     : 445
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 1488
+LocalPort     : 135
+RemoteAddress : ::
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 19208
+LocalPort     : 50732
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 18164
+LocalPort     : 49989
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 18164
+LocalPort     : 49766
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 11768
+LocalPort     : 49754
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 10848
+LocalPort     : 49752
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 5852
+LocalPort     : 49672
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 6584
+LocalPort     : 49420
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Bound
+
+
+OwningProcess : 0
+LocalPort     : 64234
+RemoteAddress : 13.107.5.93
+RemotePort    : 443
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 64131
+RemoteAddress : 159.153.51.18
+RemotePort    : 42127
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 64130
+RemoteAddress : 192.168.248.101
+RemotePort    : 53
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 62898
+RemoteAddress : 127.0.0.1
+RemotePort    : 4865
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 62041
+RemoteAddress : 159.153.51.18
+RemotePort    : 42127
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 62039
+RemoteAddress : 159.153.51.18
+RemotePort    : 42127
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 61740
+RemoteAddress : 159.153.51.18
+RemotePort    : 42127
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 61738
+RemoteAddress : 159.153.51.18
+RemotePort    : 42127
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 58380
+RemoteAddress : 192.168.248.101
+RemotePort    : 53
+State         : TimeWait
+
+
+OwningProcess : 0
+LocalPort     : 55816
+RemoteAddress : 192.168.248.101
+RemotePort    : 53
+State         : TimeWait
+
+
+OwningProcess : 18164
+LocalPort     : 51100
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5248
+LocalPort     : 50923
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 19208
+LocalPort     : 50732
+RemoteAddress : 127.0.0.1
+RemotePort    : 4865
+State         : Established
+
+
+OwningProcess : 0
+LocalPort     : 50731
+RemoteAddress : 159.153.51.18
+RemotePort    : 42127
+State         : TimeWait
+
+
+OwningProcess : 5260
+LocalPort     : 50100
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5260
+LocalPort     : 50100
+RemoteAddress : 127.0.0.1
+RemotePort    : 49989
+State         : Established
+
+
+OwningProcess : 18164
+LocalPort     : 49989
+RemoteAddress : 127.0.0.1
+RemotePort    : 50100
+State         : Established
+
+
+OwningProcess : 18164
+LocalPort     : 49766
+RemoteAddress : 127.0.0.1
+RemotePort    : 9012
+State         : Established
+
+
+OwningProcess : 11768
+LocalPort     : 49754
+RemoteAddress : 127.0.0.1
+RemotePort    : 1042
+State         : Established
+
+
+OwningProcess : 10848
+LocalPort     : 49752
+RemoteAddress : 127.0.0.1
+RemotePort    : 1042
+State         : Established
+
+
+OwningProcess : 1192
+LocalPort     : 49682
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5852
+LocalPort     : 49672
+RemoteAddress : 127.0.0.1
+RemotePort    : 13030
+State         : Established
+
+
+OwningProcess : 4616
+LocalPort     : 49668
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 3216
+LocalPort     : 49667
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 2240
+LocalPort     : 49666
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 1116
+LocalPort     : 49665
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 1220
+LocalPort     : 49664
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 6584
+LocalPort     : 49420
+RemoteAddress : 4.213.25.242
+RemotePort    : 443
+State         : Established
+
+
+OwningProcess : 4
+LocalPort     : 27339
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5820
+LocalPort     : 27017
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5304
+LocalPort     : 24830
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5852
+LocalPort     : 22112
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5260
+LocalPort     : 13032
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5260
+LocalPort     : 13031
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5852
+LocalPort     : 13030
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5852
+LocalPort     : 13030
+RemoteAddress : 127.0.0.1
+RemotePort    : 49672
+State         : Established
+
+
+OwningProcess : 13448
+LocalPort     : 9014
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 11768
+LocalPort     : 9013
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 11768
+LocalPort     : 9012
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 11768
+LocalPort     : 9012
+RemoteAddress : 127.0.0.1
+RemotePort    : 49766
+State         : Established
+
+
+OwningProcess : 5248
+LocalPort     : 7778
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 11472
+LocalPort     : 5040
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 7812
+LocalPort     : 4865
+RemoteAddress : 127.0.0.1
+RemotePort    : 50732
+State         : Established
+
+
+OwningProcess : 7812
+LocalPort     : 4865
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 5540
+LocalPort     : 1715
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 10536
+LocalPort     : 1043
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 10536
+LocalPort     : 1042
+RemoteAddress : 127.0.0.1
+RemotePort    : 49754
+State         : Established
+
+
+OwningProcess : 10536
+LocalPort     : 1042
+RemoteAddress : 127.0.0.1
+RemotePort    : 49752
+State         : Established
+
+
+OwningProcess : 10536
+LocalPort     : 1042
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 4
+LocalPort     : 139
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 1488
+LocalPort     : 135
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 22932
+LocalPort     : 80
+RemoteAddress : 0.0.0.0
+RemotePort    : 0
+State         : Listen
+
+
+OwningProcess : 12208
+LocalAddress  : ::
+LocalPort     : 64940
+
+
+OwningProcess : 2964
+LocalAddress  : ::1
+LocalPort     : 63884
+
+
+OwningProcess : 2964
+LocalAddress  : fe80::f7ae:d3e5:23f2:c57b%18
+LocalPort     : 63883
+
+
+OwningProcess : 2196
+LocalAddress  : ::
+LocalPort     : 63494
+
+
+OwningProcess : 2196
+LocalAddress  : ::
+LocalPort     : 62348
+
+
+OwningProcess : 2196
+LocalAddress  : ::
+LocalPort     : 5355
+
+
+OwningProcess : 12208
+LocalAddress  : ::
+LocalPort     : 5353
+
+
+OwningProcess : 2964
+LocalAddress  : fe80::f7ae:d3e5:23f2:c57b%18
+LocalPort     : 1900
+
+
+OwningProcess : 2964
+LocalAddress  : ::1
+LocalPort     : 1900
+
+
+OwningProcess : 2964
+LocalAddress  : 127.0.0.1
+LocalPort     : 63886
+
+
+OwningProcess : 2964
+LocalAddress  : 192.168.248.150
+LocalPort     : 63885
+
+
+OwningProcess : 18556
+LocalAddress  : 0.0.0.0
+LocalPort     : 55955
+
+
+OwningProcess : 8612
+LocalAddress  : 127.0.0.1
+LocalPort     : 54672
+
+
+OwningProcess : 5876
+LocalAddress  : 127.0.0.1
+LocalPort     : 49664
+
+
+OwningProcess : 8556
+LocalAddress  : 127.0.0.1
+LocalPort     : 10011
+
+
+OwningProcess : 14332
+LocalAddress  : 127.0.0.1
+LocalPort     : 10010
+
+
+OwningProcess : 2196
+LocalAddress  : 0.0.0.0
+LocalPort     : 5355
+
+
+OwningProcess : 12208
+LocalAddress  : 0.0.0.0
+LocalPort     : 5353
+
+
+OwningProcess : 11472
+LocalAddress  : 0.0.0.0
+LocalPort     : 5050
+
+
+OwningProcess : 2964
+LocalAddress  : 192.168.248.150
+LocalPort     : 1900
+
+
+OwningProcess : 2964
+LocalAddress  : 127.0.0.1
+LocalPort     : 1900
+
+
+OwningProcess : 4
+LocalAddress  : 192.168.248.150
+LocalPort     : 138
+
+
+OwningProcess : 4
+LocalAddress  : 192.168.248.150
+LocalPort     : 137
+
+PS C:\WINDOWS\system32>
+
