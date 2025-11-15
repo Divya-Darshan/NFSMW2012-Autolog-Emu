@@ -25,34 +25,7 @@ Bring Autolog back to *Need for Speed: Most Wanted (2012)* — community-led, si
 
 ---
 
-## ipconfig
 
-
-```bash
-Windows IP Configuration
-
-
-Wireless LAN adapter Local Area Connection* 1:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . :
-
-Wireless LAN adapter Local Area Connection* 2:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . :
-
-Wireless LAN adapter WiFi:
-
-   Connection-specific DNS Suffix  . :
-   IPv6 Address. . . . . . . . . . . : 2402:3a80:1bbb:f9cb:a749:952e:91f6:bf25
-   Temporary IPv6 Address. . . . . . : 2402:3a80:1bbb:f9cb:548e:27de:491f:2a05
-   Link-local IPv6 Address . . . . . : fe80::f7ae:d3e5:23f2:c57b%18
-   IPv4 Address. . . . . . . . . . . : 192.168.116.150
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : fe80::c8e0:95ff:fe93:67d6%18
-                                       192.168.116.116
- ```
 
 ## ping 159.153.73.13
 
